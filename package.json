@@ -1,0 +1,25 @@
+{
+  "name": "justminecraft-website",
+  "version": "1.0.0",
+  "description": "The code behind JustMinecraft.net",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perryprog/JMWeb.git"
+  },
+  "author": "Perry Fraser <me@pprogs.blog>",
+  "license": "None. No license at all.",
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
