@@ -59,12 +59,15 @@
   color: #cbcbcb;
   font-size: .80rem;
   padding-top: .5rem;
-  .ban {
+  .underline {
     text-decoration: none;
     cursor: default;
   }
-  .ban:hover {
+  .underline:hover {
     text-decoration: underline;
     cursor: pointer;
+  }
+  a {
+    color: inherit;
   }
 }
